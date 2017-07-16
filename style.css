@@ -1,0 +1,56 @@
+body {
+	background: url('images/ananas.JPG') no-repeat center center fixed;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 100vh;
+}
+
+a, p, h2 {
+	font-family: 'VT323', monospace;
+	color: #262626;
+}
+
+aside a, aside p, aside h2 {
+	padding: 0.1em;
+	background-color: #262626;
+	color: #FFDDD6;
+	font-size: 2.5em;
+	line-height: 1em;
+	display: inline-block;
+}
+
+aside p:hover {
+	cursor: pointer;
+	color: lightsalmon;
+}
+
+aside {
+	padding-left: 1em;
+	width: 30%;
+	opacity: 0.9;
+}
+
+main {
+	background-color: #FFDDD6;
+	width: 50%;
+	margin: 0 auto;
+	opacity: 0.7;
+	padding: 0.5em;
+	font-size: 2em;
+}
+
+.hidden {
+display: none;
+}
+
+.close {
+	cursor: pointer;
+}
+
+/*FFA148   FFC0BB  */
+/*	background-color: #8933FF;
+	color: #15CC42;*/
