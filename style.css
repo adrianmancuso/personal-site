@@ -12,6 +12,7 @@ body {
 a, p, h2 {
 	font-family: 'VT323', monospace;
 	color: #262626;
+	color: green;
 }
 
 aside a, aside p, aside h2 {
@@ -35,10 +36,11 @@ aside {
 }
 
 main {
-	background-color: #FFDDD6;
+	/*background-color: #FFDDD6;*/
+	background-color: black;
 	width: 50%;
 	margin: 0 auto;
-	opacity: 0.7;
+	opacity: 0.9;
 	padding: 0.5em;
 	font-size: 2em;
 }
