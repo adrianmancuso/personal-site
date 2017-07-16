@@ -1,5 +1,6 @@
 body {
 	background: url('images/ananas.JPG') no-repeat center center fixed;
+	background-size: cover;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -9,10 +10,10 @@ body {
 	height: 100vh;
 }
 
-a, p, h2 {
-	font-family: 'VT323', monospace;
-	color: #262626;
+a, p, h2, h1 {
 	color: green;
+	font-family: 'VT323', monospace;
+	font-weight: 100;
 }
 
 aside a, aside p, aside h2 {
@@ -36,11 +37,10 @@ aside {
 }
 
 main {
-	/*background-color: #FFDDD6;*/
 	background-color: black;
 	width: 50%;
 	margin: 0 auto;
-	opacity: 0.9;
+	opacity: 0.8;
 	padding: 0.5em;
 	font-size: 2em;
 }
@@ -51,6 +51,17 @@ display: none;
 
 .close {
 	cursor: pointer;
+}
+
+h1 {
+	font-size: 5em;
+	display: block;
+	position: fixed;
+	top: 1em;
+	left: 1em; 
+	font-weight: 200;
+	background-color: #262626;
+	padding: 0.08em;
 }
 
 /*FFA148   FFC0BB  */
